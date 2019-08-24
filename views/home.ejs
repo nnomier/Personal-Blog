@@ -1,5 +1,10 @@
 <%- include("partials/header.ejs") -%>
 
-<h2><%=pageTitle%></h2>
+<h1><%=pageTitle%></h1>
 <p><%=content%></p>
+
+<%postsArray.forEach(function(Post){%>
+<h1><%=Post.title%></h1>
+<p><%=Post.post%></p>
+<%})%>
 <%- include("partials/footer.ejs") -%>
