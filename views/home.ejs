@@ -3,11 +3,11 @@
 <h1><%=pageTitle%></h1>
 <p><%=content%></p>
 
-<%postsArray.forEach(function(Post){%>
+<%posts.forEach(function(Post){%>
 <h1><%=Post.title%></h1>
 <p >
-  <%=Post.post.substring(0,100)+"..."%>
-  <a href="/posts/<%=Post.title%>">Read More</a>
+  <%=Post.content.substring(0,100)+"..."%>
+  <a href="/posts/<%=Post._id%>">Read More</a>
 </p>
 <%})%>
 
