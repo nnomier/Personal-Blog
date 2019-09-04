@@ -1,14 +1,25 @@
 <%- include("partials/header.ejs") -%>
 
-<h1><%=pageTitle%></h1>
-<p><%=content%></p>
+<div  class="inner cover">
+  <h1 class="cover-heading"><%=pageTitle%></h1>
+  <p class="lead"><%=content%></p>
+  </div>
+
+
 
 <%posts.forEach(function(Post){%>
-<h1><%=Post.title%></h1>
-<p >
-  <%=Post.content.substring(0,100)+"..."%>
-  <a href="/posts/<%=Post._id%>">Read More</a>
-</p>
+  <div class="container-fluid post">
+    <div class="title-container container-fluid">
+        <h1><%=Post.title%></h1>
+    </div>
+
+    <p >
+      <%=Post.content.substring(0,100)+"..."%>
+      <a href="/posts/<%=Post._id%>">Read More</a>
+    </p>
+  </div>
+
+
 <%})%>
 
 <%- include("partials/footer.ejs") -%>
