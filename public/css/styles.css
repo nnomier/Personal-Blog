@@ -118,14 +118,7 @@ font-weight: bold;
   right: 300px;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #e0fcff;
-  border-width: 6px;
-  width: 4%;
-  margin: 100px auto;
-}
+
 
 .sunflower {
   width: 25%;
@@ -188,8 +181,8 @@ a {
 }
 
 .personal-img {
-  width: 12%;
-  height: 12%;
+  width: 17%;
+  height: 17%;
   border-radius: 100%;
 }
 
