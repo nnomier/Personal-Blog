@@ -98,32 +98,6 @@ a:hover {
   color: #e0fcff;
 }
 
-.btn {
-  background: #26baee;
-  background-image: -webkit-linear-gradient(top, #26baee, #7098da);
-  background-image: -moz-linear-gradient(top, #26baee, #7098da);
-  background-image: -ms-linear-gradient(top, #26baee, #7098da);
-  background-image: -o-linear-gradient(top, #26baee, #7098da);
-  background-image: linear-gradient(to bottom, #26baee, #7098da);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #90f2ff;
-  background-image: -webkit-linear-gradient(top, #90f2ff, #53c7f0);
-  background-image: -moz-linear-gradient(top, #90f2ff, #53c7f0);
-  background-image: -ms-linear-gradient(top, #90f2ff, #53c7f0);
-  background-image: -o-linear-gradient(top, #90f2ff, #53c7f0);
-  background-image: linear-gradient(to bottom, #90f2ff, #53c7f0);
-  text-decoration: none;
-}
 
 a {
   color: #7098da;
@@ -141,9 +115,6 @@ a {
 .footer {
   height: 30px; // Replace with the height your footer should be
   width: 100%; // Don't change
-  background-image: none;
-  background-repeat: repeat;
-  background-attachment: scroll;
   background-position: 0% 0%;
   position: fixed;
   bottom: 0pt;
